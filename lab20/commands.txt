@@ -1,0 +1,33 @@
+uniq -c file1
+comm file.txt file2.txt
+tail -v file1 file2
+od file1 file2
+cat file.txt file2.txt | tail -7
+du
+wc -l file.txt | wc -c file.txt| wc -m file.txt
+paste file2.txt
+df -a file1
+sum file1.txt file2.txt
+diff -d --minimal file1 file2
+sum file1 file2
+find |head -10
+du -c file1 file2 file3
+sort file.file
+sort -f file1 file2
+paste -s file1 file2 file3
+wc file1 file2
+cmp -b file1 file2
+nroff file2.txt
+comm file1 file2
+bzip2 -d file2.bz2
+dd if=file.txt of=file123.txt
+bzip2 -v file2
+find -name '*.*l*'|xargs -P 4 rm
+gzip -d file1
+head file1 file2 file3
+find -name "*x*"|xargs -P 4 rm
+cp file1.txt file2.txt | cmp file1.txt file2.txt
+cat < file1.txt
+gzip -v file1|ls
+vim file.txt
+df -h
